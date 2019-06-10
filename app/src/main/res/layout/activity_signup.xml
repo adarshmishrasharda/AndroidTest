@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signup">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Sign Up Page"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:hint="Enter Your Full Name"
+        android:layout_marginTop="40dp"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mno"
+        android:hint="Enter Your Mobile Number"
+        android:layout_marginTop="70dp"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eid"
+        android:hint="Enter Your Email id"
+        android:layout_marginTop="100dp"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Password"
+        android:layout_marginTop="130dp"
+        android:inputType="number"
+        android:id="@+id/pword" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:layout_marginTop="160dp"
+        android:id="@+id/signup"/>
+
+</RelativeLayout>
